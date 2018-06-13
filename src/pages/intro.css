@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Aadhunik';
-  src: local('Aadhunik'), url('./Aadhunik.ttf') format('ttf');
+  src: local('Aadhunik'), url('./Aadhunik.ttf') format('truetype');
   font-weight: normal;
 }
 *,
