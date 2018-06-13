@@ -1,13 +1,8 @@
-@font-face {
-  font-family: 'Aadhunik';
-  src: url('../assets/fonts/Aadhunik.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-y: auto !important;
 }
 body {
   height: 100vh;
