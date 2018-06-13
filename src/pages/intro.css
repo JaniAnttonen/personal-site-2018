@@ -11,3 +11,62 @@ body,
   color: #c0bdf0;
   font-weight: normal;
 }
+
+#intro {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  text-align: justify;
+  z-index: 1;
+}
+
+/* @keyframes glitch-anim {
+  0% {
+    clip: rect(300px, 400px, 76px, 0);
+  }
+  20% {
+    clip: rect(120px, 400px, 16px, 0);
+  }
+  40% {
+    clip: rect(0px, 400px, 3px, 0);
+  }
+  60% {
+    clip: rect(42px, 400px, 78px, 0);
+  }
+  80% {
+    clip: rect(15px, 400px, 13px, 0);
+  }
+  100% {
+    clip: rect(-100px, 400px, 5px, 0);
+  }
+}
+
+#intro::before,
+#intro::after {
+  font-family: 'Aadhunik', sans-serif;
+  font-size: 13px;
+  color: #c0bdf0;
+  font-weight: normal;
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#intro::before {
+  left: 1px;
+  text-shadow: -1px 0 magenta;
+  background: #09051a;
+  clip: rect(0, 0, 0, 0);
+  animation: glitch-anim 1.8s infinite linear alternate-reverse;
+}
+#intro::after {
+  left: -1px;
+  text-shadow: -1px 0 cyan;
+  background: #090401;
+  clip: rect(0, 0, 0, 0);
+  animation: glitch-anim 1.5s infinite linear alternate-reverse;
+}
+ */
