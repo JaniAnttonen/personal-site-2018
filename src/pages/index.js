@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import SVGText from '../components/svgtext';
+import SVGText from '../components/svgtext'
 
 // TODO: https://www.goodreads.com/api
 
-const IndexPage = ({
-  data
-}) => {
-  const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+const IndexPage = ({ data }) => {
   return (
     <div>
       <style>{`
@@ -22,21 +18,9 @@ const IndexPage = ({
         align-items: center;
       }
     `}</style>
-      <SVGText text={frontmatter.title} id="svgintro" />
+      <SVGText text="Jani Anttonen" id="svgintro" />
     </div>
-  );
+  )
 }
 
-export default IndexPage;
-
-const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
-    }
-  }
-`;
+export default IndexPage
