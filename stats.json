@@ -12,6 +12,10 @@
       "path----913e36bdd03f9cdb9bcc.js",
       "path----913e36bdd03f9cdb9bcc.js.map"
     ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
     "component---src-pages-books-js": [
       "component---src-pages-books-js-85c8d5f73b628c57384b.js",
       "component---src-pages-books-js-85c8d5f73b628c57384b.js.map"
@@ -44,6 +48,10 @@
       "component---src-pages-music-js-33b9e8dfe9fc561d1e4e.js",
       "component---src-pages-music-js-33b9e8dfe9fc561d1e4e.js.map"
     ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-blog-js": [
       "component---src-pages-blog-js-d6604a58ed91f487b25a.js",
       "component---src-pages-blog-js-d6604a58ed91f487b25a.js.map"
@@ -53,9 +61,9 @@
       "path---books-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b1eec7af6df5ce7031e7.js",
+      "app-3498a0a161d14de64a90.js",
       "build-js-styles.css",
-      "app-b1eec7af6df5ce7031e7.js.map",
+      "app-3498a0a161d14de64a90.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
