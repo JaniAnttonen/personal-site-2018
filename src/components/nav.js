@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './nav.css'
 
-const Navigation = () => (
-  <div className="links">
-    <div className="link">
+const Navigation = ({location: {pathname}}) => (
+  <div className={`links${pathname==="/" ? " animated fadeInDown" : ""}`}>
+    <div className={`link${pathname==="/blog" ? " active" : ""}`}>
       <Link to="/blog">Blog</Link>
     </div>
     <div className="link">
@@ -12,12 +12,12 @@ const Navigation = () => (
         Keybase
       </a>
     </div>
-    <div className="link">
-      <a href="https://refer.bandcamp.com" target="_blank">
+    <div className={`link${pathname==="/music" ? " active" : ""}`}>
+      <Link to="/music">
         Music
-      </a>
+      </Link>
     </div>
-    <div className="link">
+    <div className={`link${pathname==="/books" ? " active" : ""}`}>
       <Link to="/books">Books</Link>
     </div>
   </div>

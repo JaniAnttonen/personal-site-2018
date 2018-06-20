@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Jani Anttonen <janianttonen@gmail.com>",
   "dependencies": {
+    "animate.css": "^3.6.1",
     "gatsby": "^1.9.247",
     "gatsby-cli": "^1.1.58",
     "gatsby-link": "^1.6.40",

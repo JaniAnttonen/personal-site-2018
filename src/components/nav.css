@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   margin-left: -6pt;
   margin-right: -6pt;
+  animation-delay: 1.2s;
 }
 
 .link {
@@ -72,29 +73,37 @@
   border-width: 0 0 1px 1px;
 }
 
-.link a:hover {
+.link a:hover, .link.highlight a {
   color: rgba(255, 176, 158, 1);
 }
-.link:hover {
+.link:hover, .link.highlight {
   background: rgba(255, 176, 158, 0.05);
 }
 
-.link a:active {
+.link a:active, .link.active a {
   color: rgba(229, 255, 200, 1);
 }
-.link:active {
+.link:active, .link.active {
   background: rgba(229, 255, 200, 0.05);
 }
 
+.link.highlight:before,
+.link.highlight:after,
 .link:hover:before,
 .link:hover:after,
+.link.highlight > :first-child:before,
+.link.highlight > :first-child:after,
 .link:hover > :first-child:before,
 .link:hover > :first-child:after {
   border-color: rgba(255, 176, 158, 1);
 }
 
+.link.active:before,
+.link.active:after,
 .link:active:before,
 .link:active:after,
+.link.active > :first-child:before,
+.link.active > :first-child:after,
 .link:active > :first-child:before,
 .link:active > :first-child:after {
   border-color: rgba(229, 255, 200, 1);

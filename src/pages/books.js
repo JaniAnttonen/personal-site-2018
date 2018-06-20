@@ -2,29 +2,31 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Books = () =>
-  <div>
-    <div id="gr_custom_widget_1529528007">
-      <div className="gr_custom_container_1529528007">
-        <div className="gr_custom_each_container_1529528007">
-          <div className="gr_custom_book_container_1529528007">
-            <a title="Exponential Organizations: Why new organizations are ten times better, faster, cheaper than yours (and what to do about it)" rel="nofollow" href="https://www.goodreads.com/review/show/2169723860?utm_medium=api&amp;utm_source=custom_widget"><img alt="Exponential Organizations: Why new organizations are ten times better, faster, cheaper than yours" src="https://images.gr-assets.com/books/1404320056m/22616127.jpg" /></a>
-          </div>
-          <div className="gr_custom_title_1529528007">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/2169723860?utm_medium=api&amp;utm_source=custom_widget">Exponential Organizations: Why new organizations are ten times better, faster, cheaper than yours</a>
-          </div>
-        </div>
-        <div className="gr_custom_each_container_1529528007">
-          <div className="gr_custom_book_container_1529528007">
-            <a title="The Art of Deception: Controlling the Human Element of Security" rel="nofollow" href="https://www.goodreads.com/review/show/2169794030?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Art of Deception: Controlling the Human Element of Security" src="https://images.gr-assets.com/books/1385273509m/18160.jpg" /></a>
-          </div>
-          <div className="gr_custom_title_1529528007">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/2169794030?utm_medium=api&amp;utm_source=custom_widget">The Art of Deception: Controlling the Human Element of Security</a>
-          </div>
-        </div>
-      </div>
+  <div className="animated fadeIn">
+    <p>Here are some of the latest books I've marked as read on GoodReads:</p>
+  <style type="text/css" media="screen">{`
+        .gr_grid_container {
+        }
 
-    </div>
-    <script src="https://www.goodreads.com/review/custom_widget/73247619.Jani's%20bookshelf:%20currently-reading?cover_position=middle&cover_size=medium&num_books=5&order=a&shelf=currently-reading&show_author=0&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=1&widget_id=1529528007&widget_text_color=c0bdf0&widget_title_size=small&widget_width=full" type="text/javascript" charSet="utf-8"></script>
+        .gr_grid_book_container {
+          float: left;
+          width: 98px;
+          height: 160px;
+          padding: 0px 0px;
+          overflow: hidden;
+        }
+      `}</style>
+      <div id="gr_grid_widget_1529534706">
+          <div className="gr_grid_container">
+    <div className="gr_grid_book_container"><a title="Decoding the Universe: How the New Science of Information Is Explaining Everything in the Cosmos, from Our Brains to Black Holes" rel="nofollow" href="https://www.goodreads.com/book/show/116623.Decoding_the_Universe"><img alt="Decoding the Universe: How the New Science of Information Is Explaining Everything in the Cosmos, from Our Brains to Black Holes" src="https://images.gr-assets.com/books/1403169488m/116623.jpg" /></a></div>
+    <div className="gr_grid_book_container"><a title="Thinking, Fast and Slow" rel="nofollow" href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"><img alt="Thinking, Fast and Slow" src="https://images.gr-assets.com/books/1317793965m/11468377.jpg" /></a></div>
+    <div className="gr_grid_book_container"><a title="Cosmos" rel="nofollow" href="https://www.goodreads.com/book/show/55030.Cosmos"><img alt="Cosmos" src="https://images.gr-assets.com/books/1388620656m/55030.jpg" /></a></div>
+  <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Jani, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
+  </div>
+
+      </div>
+      <script src="https://www.goodreads.com/review/grid_widget/73247619.Jani's%20read%20book%20montage?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=a&shelf=read&sort=date_added&widget_id=1529534706" type="text/javascript" charSet="utf-8"></script>
+
   </div>
 
 

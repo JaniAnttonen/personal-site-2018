@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import "animate.css"
 
 import Navigation from '../components/nav'
 import Intro from '../components/intro'
@@ -16,7 +17,7 @@ const Layout = ({ children, data, location }) => (
       ]}
     />
     <Intro location={location} />
-    <Navigation />
+    <Navigation location={location} />
     <div className="subpage">
       {children()}
     </div>

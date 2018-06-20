@@ -1,3 +1,6 @@
+.animated {
+  animation-duration: .6s !important;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -403,7 +406,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 8pt;
 }
 figure {
   margin-left: 0;
