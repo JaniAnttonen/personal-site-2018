@@ -28,6 +28,10 @@
   min-width: 80px;
 }
 
+.link.highlight {
+  background: rgba(192, 189, 240, .05);
+}
+
 .link a {
   position: relative;
   width: 100%;
@@ -40,8 +44,12 @@
   transition: 0.3s linear color, 0.3s linear background;
 }
 
+.link.highlight:before,
+.link.highlight:after,
 .link:before,
 .link:after,
+.link.highlight > :first-child:before,
+.link.highlight > :first-child:after,
 .link > :first-child:before,
 .link > :first-child:after {
   position: absolute;
@@ -73,10 +81,10 @@
   border-width: 0 0 1px 1px;
 }
 
-.link a:hover, .link.highlight a {
+.link a:hover {
   color: rgba(255, 176, 158, 1);
 }
-.link:hover, .link.highlight {
+.link:hover {
   background: rgba(255, 176, 158, 0.05);
 }
 
@@ -87,12 +95,8 @@
   background: rgba(229, 255, 200, 0.05);
 }
 
-.link.highlight:before,
-.link.highlight:after,
 .link:hover:before,
 .link:hover:after,
-.link.highlight > :first-child:before,
-.link.highlight > :first-child:after,
 .link:hover > :first-child:before,
 .link:hover > :first-child:after {
   border-color: rgba(255, 176, 158, 1);
