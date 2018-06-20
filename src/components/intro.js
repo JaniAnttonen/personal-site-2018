@@ -4,7 +4,7 @@ import './intro.css'
 import './nav.css'
 
 const Intro = ({ location }) => (
-  <div className="intro animated fadeIn">
+  <header className="intro animated fadeIn">
     {location && location.pathname === '/' ? (
       <span className="animated fadeIn"><strong>Jani Anttonen</strong></span>
     ) : (
@@ -16,7 +16,7 @@ const Intro = ({ location }) => (
     cutting edge technologies. Expert in designing and building web applications
     with ~10 years of experience. Has dove in the deep end using deep learning
     and statistics in the last few years.</span>)}
-  </div>
+  </header>
 )
 
 export default Intro

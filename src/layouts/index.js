@@ -8,18 +8,20 @@ import Intro from '../components/intro'
 import './index.css'
 
 const Layout = ({ children, data, location }) => (
-  <div className="wrapper">
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Intro location={location} />
-    <Navigation location={location} />
-    <div className="subpage">
-      {children()}
+  <div className="app">
+    <div className="wrapper">
+      <Helmet
+        title={data.site.siteMetadata.title}
+        meta={[
+          { name: 'description', content: 'Sample' },
+          { name: 'keywords', content: 'sample, something' },
+        ]}
+      />
+      <Intro location={location} />
+      <Navigation location={location} />
+      <main className="subpage">
+        {children()}
+      </main>
     </div>
   </div>
 )
