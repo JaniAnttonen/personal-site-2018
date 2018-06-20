@@ -13,7 +13,7 @@
   margin-right: -6pt;
 }
 
-.links .link {
+.link {
   position: relative;
   display: flex;
   flex-grow: 1;
@@ -27,7 +27,7 @@
   min-width: 80px;
 }
 
-.links .link a {
+.link a {
   position: relative;
   width: 100%;
   text-align: center;
@@ -72,17 +72,17 @@
   border-width: 0 0 1px 1px;
 }
 
-.links .link a:hover {
+.link a:hover {
   color: rgba(255, 176, 158, 1);
 }
-.links .link:hover {
+.link:hover {
   background: rgba(255, 176, 158, 0.05);
 }
 
-.links .link a:active {
+.link a:active {
   color: rgba(229, 255, 200, 1);
 }
-.links .link:active {
+.link:active {
   background: rgba(229, 255, 200, 0.05);
 }
 

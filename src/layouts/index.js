@@ -6,8 +6,8 @@ import Navigation from '../components/nav'
 import Intro from '../components/intro'
 import './index.css'
 
-const Layout = ({ children, data }) => (
-  <div>
+const Layout = ({ children, data, location }) => (
+  <div className="wrapper">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -15,9 +15,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div className="wrapper">
-      <Intro />
-      <Navigation />
+    <Intro location={location} />
+    <Navigation />
+    <div className="subpage">
       {children()}
     </div>
   </div>

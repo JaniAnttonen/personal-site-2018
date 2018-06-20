@@ -11,3 +11,7 @@ body,
   color: rgba(192, 189, 240, 1);
   font-weight: normal;
 }
+
+.intro .link {
+  margin: 0;
+}

@@ -3,9 +3,7 @@ import Link from 'gatsby-link'
 
 const Blog = () => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    There'll be a blog here sometime in the future. I pwomise :3
   </div>
 )
 
