@@ -1,39 +1,16 @@
-@font-face {
-  font-family: 'Aadhunik';
-  src: local('Aadhunik'), url('./Aadhunik.ttf') format('truetype');
-  font-weight: normal;
-}
-*,
-body,
-.intro {
-  font-family: 'Aadhunik', sans-serif;
-  font-size: 13px;
-  color: rgba(192, 189, 240, 1);
-  font-weight: normal;
-}
-
 /* Text colors! */
 /* Green: rgba(229, 255, 200, 1) */
 /* Violet: rgba(192, 189, 240, 1) */
 /* Orange: rgba(255, 176, 158, 1) */
-
-.wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 490px;
-  padding: 40pt;
-  text-align: justify;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-}
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
   align-items: baseline;
-  margin-top: 12pt;
+  flex-wrap: wrap;
+  margin-left: -6pt;
+  margin-right: -6pt;
 }
 
 .links .link {
@@ -42,9 +19,12 @@ body,
   flex-grow: 1;
   align-items: center;
   justify-content: stretch;
-  margin-left: 12pt;
+  margin-right: 6pt;
+  margin-left: 6pt;
+  margin-top: 12pt;
   background: rgba(0, 0, 0, 0);
   transition: 0.3s linear color, 0.3s linear background;
+  min-width: 80px;
 }
 
 .links .link a {
@@ -57,10 +37,6 @@ body,
   line-height: 11px;
   padding: 6pt 8pt;
   transition: 0.3s linear color, 0.3s linear background;
-}
-
-.links .link:first-of-type {
-  margin-left: 0;
 }
 
 .link:before,
@@ -123,54 +99,3 @@ body,
 .link:active > :first-child:after {
   border-color: rgba(229, 255, 200, 1);
 }
-
-/* @keyframes glitch-anim {
-  0% {
-    clip: rect(300px, 400px, 76px, 0);
-  }
-  20% {
-    clip: rect(120px, 400px, 16px, 0);
-  }
-  40% {
-    clip: rect(0px, 400px, 3px, 0);
-  }
-  60% {
-    clip: rect(42px, 400px, 78px, 0);
-  }
-  80% {
-    clip: rect(15px, 400px, 13px, 0);
-  }
-  100% {
-    clip: rect(-100px, 400px, 5px, 0);
-  }
-}
-
-#intro::before,
-#intro::after {
-  font-family: 'Aadhunik', sans-serif;
-  font-size: 13px;
-  color: #c0bdf0;
-  font-weight: normal;
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#intro::before {
-  left: 1px;
-  text-shadow: -1px 0 magenta;
-  background: #09051a;
-  clip: rect(0, 0, 0, 0);
-  animation: glitch-anim 1.8s infinite linear alternate-reverse;
-}
-#intro::after {
-  left: -1px;
-  text-shadow: -1px 0 cyan;
-  background: #090401;
-  clip: rect(0, 0, 0, 0);
-  animation: glitch-anim 1.5s infinite linear alternate-reverse;
-}
- */

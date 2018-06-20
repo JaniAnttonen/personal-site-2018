@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-//import Header from '../components/header'
+import Navigation from '../components/nav'
+import Intro from '../components/intro'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -14,7 +15,11 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    {children()}
+    <div className="wrapper">
+      <Intro />
+      <Navigation />
+      {children()}
+    </div>
   </div>
 )
 

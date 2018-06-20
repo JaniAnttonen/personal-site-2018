@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Aadhunik';
+  src: local('Aadhunik'), url('../assets/fonts/Aadhunik.ttf') format('truetype');
+  font-weight: normal;
+}
+*,
+body,
+.intro {
+  font-family: 'Aadhunik', sans-serif;
+  font-size: 13px;
+  color: rgba(192, 189, 240, 1);
+  font-weight: normal;
+}
