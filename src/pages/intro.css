@@ -5,20 +5,118 @@
 }
 *,
 body,
-#intro {
+.intro {
   font-family: 'Aadhunik', sans-serif;
   font-size: 13px;
   color: #c0bdf0;
   font-weight: normal;
 }
 
-#intro {
+/* Text colors! */
+/* Green: #e5ffc8 */
+/* Violet: #c0bdf0 */
+/* Orange: #ffb09e */
+
+.wrapper {
   position: relative;
   width: 100%;
   max-width: 490px;
   padding: 40pt;
   text-align: justify;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: baseline;
+  margin-top: 12pt;
+}
+
+.links .link {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: stretch;
+  margin-left: 12pt;
+}
+
+.links .link a {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 11px;
+  padding: 6pt 8pt;
+  background: transparent;
+  transition: 0.3s linear color, 0.3s linear background;
+}
+
+.links .link:first-of-type {
+  margin-left: 0;
+}
+
+.link:before,
+.link:after,
+.link > :first-child:before,
+.link > :first-child:after {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-color: #c0bdf0;
+  border-style: solid;
+  content: ' ';
+  transition: 0.3s linear border-color;
+}
+.link:before {
+  top: 0;
+  left: 0;
+  border-width: 1px 0 0 1px;
+}
+.link:after {
+  top: 0;
+  right: 0;
+  border-width: 1px 1px 0 0;
+}
+.link > :first-child:before {
+  bottom: 0;
+  right: 0;
+  border-width: 0 1px 1px 0;
+}
+.link > :first-child:after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 1px 1px;
+}
+
+.links .link a:hover {
+  color: #ffb09e;
+  background: rgba(#ffb09e, 0.2);
+}
+
+.links .link a:active {
+  color: #e5ffc8;
+  background: rgba(#e5ffc8, 0.2);
+}
+
+.link:hover:before,
+.link:hover:after,
+.link:hover > :first-child:before,
+.link:hover > :first-child:after {
+  border-color: #ffb09e;
+}
+
+.link:active:before,
+.link:active:after,
+.link:active > :first-child:before,
+.link:active > :first-child:after {
+  border-color: #e5ffc8;
 }
 
 /* @keyframes glitch-anim {
