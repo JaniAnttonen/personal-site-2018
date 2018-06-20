@@ -11,6 +11,8 @@ module.exports = {
         name: 'markdown',
       },
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    'gatsby-plugin-manifest',
+    'gatsby-plugin-offline'
   ]
 }
