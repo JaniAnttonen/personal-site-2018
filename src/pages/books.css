@@ -1,0 +1,29 @@
+.now-reading, .read {
+  margin-left: -6pt;
+  margin-right: -6pt;
+}
+
+.gr_grid_book_container {
+  float: left;
+  width: 98px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden;
+  margin-right: 6pt;
+  margin-left: 6pt;
+}
+
+.now-reading img, .read img {
+  -webkit-filter: grayscale(45%);
+  filter: grayscale(45%);
+  opacity: 0.4;
+  transition: .2s transform ease-in-out, .2s opacity ease-in-out, .2s filter ease-in-out;
+  margin-right: 8pt;
+}
+
+.now-reading img:hover, .read img:hover {
+  opacity: 1;
+  transform: scale(1.04);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}

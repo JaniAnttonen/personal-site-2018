@@ -5,6 +5,7 @@ import "animate.css"
 
 import Navigation from '../components/nav'
 import Intro from '../components/intro'
+import Footer from '../components/footer'
 import './index.css'
 
 const Layout = ({ children, data, location }) => (
@@ -22,6 +23,7 @@ const Layout = ({ children, data, location }) => (
       <main className="subpage">
         {children()}
       </main>
+      <Footer location={location} />
     </div>
   </div>
 )

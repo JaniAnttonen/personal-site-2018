@@ -35,6 +35,15 @@ body {
 .subpage {
   margin-top: 12pt;
 }
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+section {
+  width: 100%;
+}
 article,
 aside,
 details,
