@@ -17,12 +17,12 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-pages-books-js": [
-      "component---src-pages-books-js-85c8d5f73b628c57384b.js",
-      "component---src-pages-books-js-85c8d5f73b628c57384b.js.map"
+      "component---src-pages-books-js-d58909e646e02be9cd7e.js",
+      "component---src-pages-books-js-d58909e646e02be9cd7e.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-39930bc51b63ba619c89.js",
-      "component---src-layouts-index-js-39930bc51b63ba619c89.js.map"
+      "component---src-layouts-index-js-14c2c217e467cbae7502.js",
+      "component---src-layouts-index-js-14c2c217e467cbae7502.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -33,8 +33,10 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-afb5782224ac01f1fa03.js",
-      "commons-afb5782224ac01f1fa03.js.map"
+      "commons-e046370cf6b52a293e1e.js",
+      "build-js-styles.css",
+      "commons-e046370cf6b52a293e1e.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
