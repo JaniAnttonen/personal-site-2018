@@ -1,20 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import './blog.css'
+
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div className="blog-posts">
+    <div className="blog-posts animated fadeIn">
       {posts
         .filter(post => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
           return (
             <div className="blog-post-preview" key={post.id}>
-              <h1>
+              <span>
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </h1>
-              <h2>{post.frontmatter.date}</h2>
-              <p>{post.excerpt}</p>
+              </span>
+              <time>{post.frontmatter.date}</time>
             </div>
           )
         })}

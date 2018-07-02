@@ -1,0 +1,14 @@
+.blog-post-preview {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  line-height: 1.2rem;
+}
+
+.blog-post-preview a {
+  font-size: 0.75rem;
+}
+
+.blog-post-preview time {
+  font-size: 0.7rem;
+}

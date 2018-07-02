@@ -3,8 +3,9 @@
 }
 
 .title h1 {
-  margin-bottom: 6pt;
+  margin-bottom: 4pt;
   color: rgba(229, 255, 200, 1);
+  line-height: 1.3em;
 }
 
 .title time {

@@ -7,7 +7,7 @@ import './blog-post.css'
 export default function Template({ data }) {
   const post = data.markdownRemark
   return (
-    <div className="blog-post-container">
+    <div className="blog-post-container animated fadeIn">
       <Helmet title={`Jani Anttonen - ${post.frontmatter.title}`} />
       <article className="blog-post">
         <header className="title">
