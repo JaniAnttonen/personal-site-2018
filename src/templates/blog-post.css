@@ -15,3 +15,32 @@
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
+
+article code {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.gatsby-highlight pre {
+  position: relative;
+  max-width: 100%;
+}
+
+/**
+ * Remove the default PrismJS theme background-color, border-radius, margin,
+ * padding and overflow.
+ * 1. Make the element just wide enough to fit its content.
+ * 2. Always fill the visible space in .gatsby-highlight.
+ */
+.gatsby-highlight pre[class*='language-'] {
+  background: rgba(255, 176, 158, 0.05);
+  overflow: auto;
+  float: left; /* 1 */
+  min-width: 100%; /* 2 */
+}
+
+.gatsby-highlight pre[class*='language-'] code,
+.gatsby-highlight pre[class*='language-'] code span.token {
+  font-family: monospace !important;
+  font-size: 0.7rem !important;
+}
