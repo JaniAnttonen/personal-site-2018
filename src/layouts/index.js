@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import "animate.css"
+import 'animate.css'
 
 import Navigation from '../components/nav'
 import Intro from '../components/intro'
 import Footer from '../components/footer'
+
 import './index.css'
 
 const Layout = ({ children, data, location }) => (
@@ -20,9 +21,7 @@ const Layout = ({ children, data, location }) => (
       />
       <Intro location={location} />
       <Navigation location={location} />
-      <main className="subpage">
-        {children()}
-      </main>
+      <main className="subpage">{children()}</main>
       <Footer location={location} />
     </div>
   </div>
