@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import rss from './rss.svg'
 import './blog.css'
 
 export default function Index({ data }) {
@@ -19,6 +20,9 @@ export default function Index({ data }) {
             </div>
           )
         })}
+      <Link to="/rss.xml">
+        <img src={rss} className="icon rss" />
+      </Link>
     </div>
   )
 }

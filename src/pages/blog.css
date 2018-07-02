@@ -1,3 +1,17 @@
+.icon {
+  margin: 0;
+  height: 17px;
+  width: auto;
+  background: rgba(255, 176, 158, 1);
+  float: right;
+  padding: 1pt;
+  transition: 0.2s ease-in-out background;
+}
+
+.icon:hover {
+  background: rgba(229, 255, 200, 1);
+}
+
 .blog-post-preview {
   display: flex;
   width: 100%;

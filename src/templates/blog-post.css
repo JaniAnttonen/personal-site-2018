@@ -12,7 +12,9 @@
   color: rgba(255, 176, 158, 1);
 }
 
-.blog-post-content p {
+.blog-post-content p,
+.blog-post-content a,
+.blog-post-content em {
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
