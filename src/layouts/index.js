@@ -15,10 +15,16 @@ const Layout = ({ children, data, location }) => (
       <Helmet
         title={data.site.siteMetadata.title}
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: 'description', content: 'Jani Anttonen' },
+          {
+            name: 'keywords',
+            content:
+              'Software Developer, Developer, Jani Anttonen, Machine Learning, AI, ML, Data Science, React, Javascript, Node, NodeJS, Python, Golang, Go, Finland, Finnish, Turku, Helsinki',
+          },
         ]}
-      />
+      >
+        <html lang="en" />
+      </Helmet>
       <Intro location={location} />
       <Navigation location={location} />
       <main className="subpage">{children()}</main>
