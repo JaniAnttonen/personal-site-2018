@@ -15,10 +15,8 @@ const Navigation = ({ location: { pathname } }) => (
     <div className={`link${pathname === '/blog' ? ' active' : ''}`}>
       <Link to="/blog">Blog</Link>
     </div>
-    <div className="link">
-      <a href="https://keybase.io/jantto" target="_blank" rel="noopener">
-        Keybase
-      </a>
+    <div className={`link${pathname === '/contact' ? ' active' : ''}`}>
+      <Link to="/contact">Contact</Link>
     </div>
     <div className={`link${pathname === '/music' ? ' active' : ''}`}>
       <Link to="/music">Music</Link>

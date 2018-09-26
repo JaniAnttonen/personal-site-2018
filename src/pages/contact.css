@@ -1,0 +1,39 @@
+.link-list .list-title,
+.contact-info .description {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 8pt;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6pt;
+}
+
+.link-list:last-of-type {
+  margin-bottom: 0;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.separator {
+  margin: 0 6pt;
+}
+
+.contact-info {
+  margin-bottom: 6pt;
+}
+
+.contact-info-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}

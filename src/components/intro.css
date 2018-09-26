@@ -13,6 +13,11 @@ body,
   font-weight: normal;
 }
 
+hr {
+  background: rgba(192, 189, 240, 0.05) !important;
+  margin-bottom: 8pt !important;
+}
+
 .intro .link {
   margin: 0;
 }
