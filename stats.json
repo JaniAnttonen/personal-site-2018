@@ -12,21 +12,25 @@
       "path----913e36bdd03f9cdb9bcc.js",
       "path----913e36bdd03f9cdb9bcc.js.map"
     ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-750388e0f603b47e1b0b.js",
+      "component---src-pages-contact-js-750388e0f603b47e1b0b.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-pages-books-js": [
-      "component---src-pages-books-js-d58909e646e02be9cd7e.js",
-      "component---src-pages-books-js-d58909e646e02be9cd7e.js.map"
+      "component---src-pages-books-js-56c246b718020f632107.js",
+      "component---src-pages-books-js-56c246b718020f632107.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-b9e2135a6271dee55b11.js",
       "component---src-templates-blog-post-js-b9e2135a6271dee55b11.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-29763922e96d152f70b1.js",
-      "component---src-layouts-index-js-29763922e96d152f70b1.js.map"
+      "component---src-layouts-index-js-24f1207272932a83fdd6.js",
+      "component---src-layouts-index-js-24f1207272932a83fdd6.js.map"
     ],
     "path---blog-react-select-native": [
       "path---blog-react-select-native-49501c8d334ac10beda3.js",
@@ -50,6 +54,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---music": [
       "path---music-a0e39f21c11f6a62c5ab.js",
       "path---music-a0e39f21c11f6a62c5ab.js.map"
@@ -71,9 +79,9 @@
       "path---books-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-4bde983e00437b42745d.js",
+      "app-99c878068a9c3087978f.js",
       "build-js-styles.css",
-      "app-4bde983e00437b42745d.js.map",
+      "app-99c878068a9c3087978f.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
