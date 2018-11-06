@@ -1,29 +1,35 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Layout from '../components/layout'
 
 import rss from './rss.svg'
 import './blog.css'
 
-export default function Index({ data }) {
+const Index = props => {
+  const { data } = props
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div className="blog-posts animated fadeIn">
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <div className="blog-post-preview" key={post.id}>
-              <span>
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </span>
-              <time>{post.frontmatter.date}</time>
-            </div>
-          )
-        })}
-      <Link to="/rss.xml">
-        <img src={rss} className="icon rss" />
-      </Link>
-    </div>
+    <Layout {...props}>
+      <div className="blog-posts animated fadeIn">
+        {posts
+          .filter(post => post.node.frontmatter.title.length > 0)
+          .map(({ node: post }) => {
+            return (
+              <div className="blog-post-preview" key={post.id}>
+                <span>
+                  <Link to={post.frontmatter.path}>
+                    {post.frontmatter.title}
+                  </Link>
+                </span>
+                <time>{post.frontmatter.date}</time>
+              </div>
+            )
+          })}
+        <Link to="/rss.xml">
+          <img src={rss} className="icon rss" alt="icon rss" />
+        </Link>
+      </div>
+    </Layout>
   )
 }
 export const pageQuery = graphql`
@@ -43,3 +49,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default Index

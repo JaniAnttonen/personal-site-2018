@@ -3,17 +3,17 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import 'animate.css'
 
-import Navigation from '../components/nav'
-import Intro from '../components/intro'
-import Footer from '../components/footer'
+import Navigation from './nav'
+import Intro from './intro'
+import Footer from './footer'
 
-import './index.css'
+import './layout.css'
 
 const Layout = ({ children, data, location }) => (
   <div className="app">
     <div className="wrapper">
       <Helmet
-        title={data.site.siteMetadata.title}
+        title="Jani Anttonen"
         meta={[
           { name: 'description', content: 'Jani Anttonen' },
           {
@@ -27,14 +27,14 @@ const Layout = ({ children, data, location }) => (
       </Helmet>
       <Intro location={location} />
       <Navigation location={location} />
-      <main className="subpage">{children()}</main>
+      <main className="subpage">{children}</main>
       <Footer location={location} />
     </div>
   </div>
 )
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.object,
 }
 
 export default Layout
