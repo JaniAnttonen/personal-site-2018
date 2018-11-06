@@ -30,6 +30,7 @@ const Layout = ({ children, data, location }) => (
       <main className="subpage">{children}</main>
       <Footer location={location} />
     </div>
+    <noscript>This website requires Javascript to run.</noscript>
   </div>
 )
 
