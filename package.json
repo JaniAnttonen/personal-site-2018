@@ -8,7 +8,7 @@
     "acorn-loose": "^6.0.0",
     "animate.css": "^3.7.0",
     "gatsby": "^2.0.0",
-    "gatsby-cli": "^2.4.5",
+    "gatsby-cli": "^2.4.8",
     "gatsby-link": "^2.0.6",
     "gatsby-plugin-catch-links": "^2.0.6",
     "gatsby-plugin-feed": "^2.0.9",
