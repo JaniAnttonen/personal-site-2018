@@ -47,6 +47,20 @@ const Contact = props => (
         <div className="link-item">
           <a
             className="social-link"
+            href="https://github.com/JaniAnttonen"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+          <span className="separator"> – </span>
+          <span className="description">
+            All my public code can be found here.
+          </span>
+        </div>
+        <div className="link-item">
+          <a
+            className="social-link"
             href="https://keybase.io/jantto"
             target="_blank"
             rel="noopener noreferrer"
