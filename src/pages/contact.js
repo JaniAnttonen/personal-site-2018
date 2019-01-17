@@ -8,7 +8,7 @@ const Contact = props => (
       <div className="contact-info">
         <div className="contact-info-item">
           <span className="description">Email: </span>
-          <span className="address">janianttonen@gmail.com</span>
+          <span className="address">jani.anttonen@protonmail.ch</span>
         </div>
       </div>
       <hr />
