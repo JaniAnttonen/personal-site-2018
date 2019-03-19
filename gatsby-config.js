@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-netlify-cms',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
