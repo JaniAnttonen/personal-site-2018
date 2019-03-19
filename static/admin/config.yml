@@ -2,13 +2,13 @@ backend:
   name: github
   repo: janianttonen/personal-site-2018
 
-media_folder: src/assets
-public_folder: public
+media_folder: static/images
+public_folder: images
 
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: src/pages/blog
     create: true
     fields:
       - { name: path, label: Path }
