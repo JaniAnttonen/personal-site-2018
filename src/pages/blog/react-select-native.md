@@ -3,10 +3,11 @@ title: "Using the native HTML select element (for real) in React"
 date: "2018-07-02T00:00:00.000Z"
 path: "/blog/react-select-native"
 ---
-
 **Disclaimer: this is not a package for React Native. The name refers to the native HTML element.**
 
 Lately in a project I wanted to make a progressive web app with a mobile-friendly UI with React. All was fine and dandy until I wanted to use native HTML form elements due to their good, integrated user experience with mobile devices.
+
+![](/images/18b2702c.png)
 
 You see, the HTML standard wasn't exactly made for handling JSON or any other structured data format. For example, our star of the day, select, [can only handle strings as values.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) So, what do?
 
