@@ -43,6 +43,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-purgecss',
     {
       resolve: `gatsby-plugin-feed`,
       options: {
