@@ -19,7 +19,7 @@ Perfecting the transport I really started playing with automated tests. Covering
 
 All in all it has been a great experience in making open source software, which really makes you think about testing, clean code and configurability in a different way.
 
-**By the way, I still ended up using the EFK stack. (Elasticsearch, Fluentd, Kibana)** Grafana doesn't still at this time support alerting based on Loki data, so you are forced to only exploring it in Grafana at this time. Fluentd was just too great to pass if you're using Docker and microservices written in languages other than Node.js. You can get everything in each container's stdout to Elasticsearch, and can even forward logs between fluentd nodes. It really is great, although a bit frightening at first. I'll keep developing winston-loki, and will keep an eye on Grafana Loki's development. Might even use it in some smaller projects.
+**By the way, I still ended up using the EFK stack. (Elasticsearch, Fluentd, Kibana)** At this time, Grafana still doesn't support alerting based on Loki data, so you are forced to only exploring it in Grafana at this time. Fluentd was just too great to pass if you're using Docker and microservices written in languages other than Node.js. You can get everything in each container's stdout to Elasticsearch, and can even forward logs between fluentd nodes. It really is great, although a bit frightening at first. I'll keep developing winston-loki, and will keep an eye on Grafana Loki's development. Might even use it in some smaller projects.
 
 _Thanks to everyone who has used the npm package and given support on Github, really appreciate it!_
 
