@@ -1,7 +1,7 @@
 ---
 path: /blog/winston-loki
 date: 2019-03-23T19:57:07.641Z
-title: Experiences of Coding My Own Winston Transport
+title: Experiences of Coding an Open Source Winston Transport
 ---
 Lately I've had the time to think about logging in microservices. There seem to be a lot of options, but after looking at them I felt that the open source community around [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) isn't as mature as I thought it would be. What I mean by this is that the most common options seem to require a lot of configuration and require at least some sort of deep dive into the documentation just to get a simple central point for microservice logs.
 
