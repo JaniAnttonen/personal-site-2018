@@ -15,6 +15,7 @@ module.exports = {
     },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-purgecss',
     {
       resolve: 'gatsby-transformer-remark',
       options: {

@@ -11,7 +11,11 @@ const Intro = ({ location }) =>
         cutting edge technologies. Expert in designing and building web
         applications with over 10 years of experience. Currently working on
         distributed systems, and on{' '}
-        <a href="https://marshallai.com" target="_blank">
+        <a
+          href="https://marshallai.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           physical security at MarshallAI.
         </a>{' '}
       </span>

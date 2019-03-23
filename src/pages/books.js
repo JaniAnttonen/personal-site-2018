@@ -95,9 +95,9 @@ class GoodReads extends Component {
           />
         ) : (
           <section className="now-reading">
-            <div class="gr_grid_book_container" />
-            <div class="gr_grid_book_container" />
-            <div class="gr_grid_book_container" />
+            <div className="gr_grid_book_container" />
+            <div className="gr_grid_book_container" />
+            <div className="gr_grid_book_container" />
           </section>
         )}
 
@@ -106,9 +106,9 @@ class GoodReads extends Component {
           <section className="read" dangerouslySetInnerHTML={haveRead} />
         ) : (
           <section className="read">
-            <div class="gr_grid_book_container" />
-            <div class="gr_grid_book_container" />
-            <div class="gr_grid_book_container" />
+            <div className="gr_grid_book_container" />
+            <div className="gr_grid_book_container" />
+            <div className="gr_grid_book_container" />
           </section>
         )}
       </React.Fragment>
