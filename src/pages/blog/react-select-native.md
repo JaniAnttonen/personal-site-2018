@@ -1,7 +1,7 @@
 ---
 path: /blog/react-select-native
 date: '2018-07-02T00:00:00.000Z'
-title: Using the native HTML select element (for real) in React
+title: Using the Native HTML Select Element in React
 ---
 **Disclaimer: this is not a package for React Native. The name refers to the native HTML element.**
 
