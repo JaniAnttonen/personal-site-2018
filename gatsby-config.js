@@ -98,6 +98,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
+        whitelist: ['gatsby-highlight'],
         whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
       },
     },
