@@ -15,7 +15,6 @@ module.exports = {
     },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-netlify-cms',
-    'gatsby-plugin-purgecss',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -94,6 +93,12 @@ module.exports = {
             output: '/rss.xml',
           },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-purgecss',
+      options: {
+        whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
       },
     },
   ],
