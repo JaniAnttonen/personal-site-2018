@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   siteMetadata: {
     title: 'Jani Anttonen',
     description: 'Personal site of Jani Anttonen',
@@ -102,5 +103,6 @@ module.exports = {
         whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
       },
     },
+    'gatsby-plugin-ipfs',
   ],
 }
