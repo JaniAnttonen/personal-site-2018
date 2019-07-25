@@ -10,14 +10,15 @@ const Intro = ({ location }) =>
         <strong>Jani Anttonen</strong> – A creative mind with a broad view of
         cutting edge technologies. Expert in designing and building web
         applications with over 10 years of experience. Currently working on
-        decentralized stuff at <a href="https://equilibrium.co" target="_blank" rel="noopener noreferrer">Equilibrium Labs</a>, and on physical security at{' '}
+        decentralized stuff at{' '}
         <a
-          href="https://marshallai.com"
+          href="https://equilibrium.co"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Marshall AI.
-        </a>{' '}
+          Equilibrium Labs
+        </a>
+        .
       </span>
     </header>
   )
