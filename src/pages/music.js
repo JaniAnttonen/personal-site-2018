@@ -23,7 +23,7 @@ const Music = props => (
             border: 0,
             width: '100%',
             height: '42px',
-            marginTop: index === 0 ? '8pt' : '2pt',
+            marginTop: index === 0 ? '8pt' : '1pt',
           }}
           src={`https://bandcamp.com/EmbeddedPlayer/track=${
             track.id
@@ -42,7 +42,7 @@ const Music = props => (
             border: 0,
             width: '100%',
             height: '274px',
-            marginTop: '2pt',
+            marginTop: '1pt',
           }}
           src={`https://bandcamp.com/EmbeddedPlayer/album=${
             album.id
