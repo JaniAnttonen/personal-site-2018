@@ -17,12 +17,17 @@ const albums = [{ name: 'Solemn EP', link: 'solemn-ep-2', id: '144455406' }]
 const Music = props => (
   <Layout {...props}>
     <div className="animated fadeIn">
-      {tracks.map(track => (
+      {tracks.map((track, index) => (
         <iframe
-          style={{ border: 0, width: '100%', height: '42px', marginTop: '8pt' }}
+          style={{
+            border: 0,
+            width: '100%',
+            height: '42px',
+            marginTop: index === 0 ? '8pt' : '2pt',
+          }}
           src={`https://bandcamp.com/EmbeddedPlayer/track=${
             track.id
-          }/size=small/bgcol=09051a/linkcol=c0bdf0/artwork=none/transparent=true/`}
+          }/size=small/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/`}
           seamless
           key={track.id}
         >
@@ -37,11 +42,11 @@ const Music = props => (
             border: 0,
             width: '100%',
             height: '274px',
-            marginTop: '8pt',
+            marginTop: '2pt',
           }}
           src={`https://bandcamp.com/EmbeddedPlayer/album=${
             album.id
-          }/size=large/bgcol=09051a/linkcol=c0bdf0/artwork=small/transparent=true/`}
+          }/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/`}
           title="bandcamp player"
           seamless
         >
