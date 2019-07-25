@@ -19,7 +19,7 @@ const Layout = ({ children, data, location }) => (
           {
             name: 'keywords',
             content:
-              'Software Developer, Developer, Jani Anttonen, Machine Learning, AI, ML, Data Science, React, Javascript, Node, NodeJS, Python, Golang, Go, Finland, Finnish, Turku, Helsinki',
+              'Software Developer, Developer, Blockchain, Decentralization, p2p, peer-to-peer, Jani Anttonen, Machine Learning, AI, ML, Data Science, React, Javascript, Node, NodeJS, Python, Golang, Go, Rust, Finland, Finnish, Turku, Helsinki',
           },
         ]}
       >
