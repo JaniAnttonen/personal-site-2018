@@ -58,7 +58,8 @@
   border-color: rgba(192, 189, 240, 1);
   border-style: solid;
   content: ' ';
-  transition: 0.3s linear border-color;
+  transition: 0.3s linear border-color, 0.6s ease width, 0.6s ease height;
+  pointer-events: none;
 }
 .link:before {
   top: 0;
@@ -80,7 +81,20 @@
   left: 0;
   border-width: 0 0 1px 1px;
 }
+.link:hover:before,
+.link:hover:after,
+.link.highlight:hover > :first-child:before,
+.link.highlight:hover > :first-child:after,
+.link:hover > :first-child:before,
+.link:hover > :first-child:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
+.link a {
+  pointer-events: auto;
+}
 .link a:hover {
   color: rgba(255, 176, 158, 1);
 }
