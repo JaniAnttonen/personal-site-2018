@@ -40,6 +40,20 @@ const Contact = props => (
           <span className="separator"> – </span>
           <span className="description">Sharing links and thoughts.</span>
         </div>
+        <div className="link-item">
+          <a
+            className="social-link"
+            href="https://mastodon.social/@jantto"
+            target="_blank"
+            rel="noopener noreferrer me"
+          >
+            Mastodon
+          </a>
+          <span className="separator"> – </span>
+          <span className="description">
+            Waiting for the network effect to happen.
+          </span>
+        </div>
       </div>
       <hr />
       <div className="link-list">
