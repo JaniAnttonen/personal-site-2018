@@ -8,14 +8,14 @@
 body,
 .intro {
   font-family: 'Aadhunik', sans-serif;
-  font-size: 13px;
+  font-size: 17px;
   color: #c0bdf0;
   font-weight: normal;
 }
 
 hr {
   background: rgba(192, 189, 240, 0.05) !important;
-  margin-bottom: 8pt !important;
+  margin-bottom: 12pt !important;
 }
 
 .intro .link {

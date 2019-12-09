@@ -38,9 +38,9 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 11px;
-  line-height: 11px;
-  padding: 6pt 8pt;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 7pt 9pt 6pt 9pt;
   transition: 0.3s linear color, 0.3s linear background;
 }
 

@@ -25,15 +25,16 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  max-width: 490px;
-  padding: 40pt;
+  max-width: 520px;
+  padding: 20px;
   text-align: justify;
   z-index: 1;
   display: flex;
+  line-height: 1.8em;
   flex-direction: column;
 }
 .subpage {
-  margin-top: 12pt;
+  margin: 20px 0 10px 0;
 }
 .flex {
   display: flex;

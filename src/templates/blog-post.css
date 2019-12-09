@@ -12,22 +12,12 @@
   color: rgba(255, 176, 158, 1);
 }
 
-.blog-post-content p,
-.blog-post-content a,
-.blog-post-content em,
-.blog-post-content p .language-text {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  font-family: inherit;
-}
-
 article code {
   background: transparent !important;
   box-shadow: none !important;
 }
 
 .blog-post-content p code.language-text {
-  padding: 5pt 8pt;
   background: rgba(255, 255, 255, 0.05) !important;
 }
 
