@@ -1,5 +1,5 @@
 ---
-path: '2020'
+path: /blog/2020
 date: 2020-01-08T14:37:11.521Z
 title: Not Quite As Expected
 ---
