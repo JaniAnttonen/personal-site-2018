@@ -3,7 +3,6 @@ module.exports = {
   siteMetadata: {
     title: 'Jani Anttonen',
     description: 'Personal site of Jani Anttonen',
-    siteUrl: 'https://janianttonen.com',
   },
   plugins: [
     'gatsby-plugin-ipfs',
@@ -37,7 +36,7 @@ module.exports = {
       options: {
         name: 'Jani Anttonen',
         short_name: 'jantto',
-        start_url: '/',
+        start_url: '__GATSBY_IPFS_PATH_PREFIX__',
         background_color: '#09051a',
         theme_color: '#c0bdf0',
         display: 'minimal-ui',
@@ -45,58 +44,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  url: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
-                  guid: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
-                })
-              })
-            },
-            query: `
-              {
-                allMarkdownRemark(
-                  limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] }
-                ) {
-                  edges {
-                    node {
-                      excerpt
-                      html
-                      frontmatter {
-                        title
-                        date
-                        path
-                      }
-                    }
-                  }
-                }
-              }
-            `,
-            output: '/rss.xml',
-          },
-        ],
-      },
-    },
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
