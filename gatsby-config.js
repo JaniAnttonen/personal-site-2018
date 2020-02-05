@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'https://janianttonen.com',
   },
   plugins: [
+    'gatsby-plugin-ipfs',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -103,6 +104,5 @@ module.exports = {
         whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
       },
     },
-    'gatsby-plugin-ipfs',
   ],
 }
