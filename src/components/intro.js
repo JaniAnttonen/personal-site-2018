@@ -16,7 +16,7 @@ const Intro = ({ location }) =>
           target="_blank"
           rel="noopener noreferrer"
         >
-          Equilibrium Labs
+          Equilibrium
         </a>
         .
       </span>
