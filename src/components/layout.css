@@ -27,7 +27,7 @@ body {
 }
 .fauxbody {
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   position: relative;
   display: flex;
   justify-content: center;
