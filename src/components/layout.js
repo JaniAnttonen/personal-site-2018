@@ -10,6 +10,8 @@ import Footer from './footer'
 import './layout.css'
 import '../../node_modules/pattern.css/dist/pattern.css'
 
+const paymentPointer = '$ilp.uphold.com/nHkQG39raWhE'
+
 const Layout = ({ children, data, location }) => (
   <div className='fauxbody pattern-dots-sm'>
     <div className='app'>
@@ -23,6 +25,7 @@ const Layout = ({ children, data, location }) => (
               content:
                 'Software Developer, Developer, Blockchain, Decentralization, p2p, peer-to-peer, Jani Anttonen, Machine Learning, AI, ML, Data Science, React, Javascript, Node, NodeJS, Python, Golang, Go, Rust, Finland, Finnish, Turku, Helsinki',
             },
+            { name: 'monetization', content: paymentPointer }
           ]}
         >
           <html lang='en' />
